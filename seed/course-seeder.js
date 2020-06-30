@@ -8,10 +8,6 @@ mongoose.connect(
     useUnifiedTopology: true,
   }
 );
-// mongoose.connect("mongodb://localhost:27017/education", {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// });
 
 const courses = [
   new Course({
