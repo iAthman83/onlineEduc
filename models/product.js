@@ -8,4 +8,4 @@ const courseSchema = new Schema({
   price: { type: Number, required: true },
 });
 
-module.exports = mongoose.model("Course", courseSchema);
+module.exports = mongoose.model("Product", courseSchema);
