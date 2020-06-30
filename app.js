@@ -21,10 +21,18 @@ const userRouter = require("./routes/user");
 const app = express();
 
 // Connect to the mongodb server
-mongoose.connect("mongodb://localhost:27017/education", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+
+mongoose.connect(
+  "mongodb+srv://iathman83:B11sm1llah@cluster0.9h4be.azure.mongodb.net/onlineEduc?retryWrites=true&w=majority",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+);
+// mongoose.connect("mongodb://localhost:27017/education", {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
 
 // Require the passport js file without binding it so the app.js know what it is
 require("./config/passport");
