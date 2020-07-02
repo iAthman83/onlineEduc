@@ -38,20 +38,6 @@ const courses = [
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     price: 500,
   }),
-  new Course({
-    imagePath: "/images/course_2.jpg",
-    title: "AngularJS",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 800,
-  }),
-  new Course({
-    imagePath: "/images/Course_3.jpg",
-    title: "Bootstrap",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    price: 350,
-  }),
 ];
 
 var done = 0;
